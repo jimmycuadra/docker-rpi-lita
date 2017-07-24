@@ -1,4 +1,4 @@
-FROM jimmycuadra/rpi-ruby:2.4.0
+FROM arm32v7/ruby:2.4.1
 
 RUN mkdir /app
 WORKDIR /app
